@@ -1,0 +1,11 @@
+{
+    "name": "javascript-pong",
+    "version": "1.0.0",
+    "description": "JavaScript Pong Game",
+    "scripts": {
+      "start": "http-server -p 5000"
+    },
+    "dependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
