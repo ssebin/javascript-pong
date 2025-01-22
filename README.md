@@ -5,13 +5,11 @@ A simple JavaScript Pong game that you can run using Docker.
 ## Overview
 This project is a classic Pong game implemented in JavaScript. Dockerizing the application allows you to run it easily in a containerized environment without worrying about installing dependencies on your local machine.
 
----
 
 ## Prerequisites
 - Docker must be installed on your system.
 - [Download and install Docker here](https://www.docker.com/).
 
----
 
 ## Getting Started
 
@@ -63,7 +61,6 @@ http://localhost:5000
 
 You should see the JavaScript Pong game running. Enjoy playing!
 
----
 
 ## Stopping the Application
 To stop the Docker container, press `Ctrl+C` in the terminal where the container is running.
@@ -84,7 +81,6 @@ Alternatively, you can stop the container using the following commands:
 
    Replace `CONTAINER_ID` with the actual ID from the `docker ps` output.
 
----
 
 ## Cleaning Up
 If you want to remove the Docker image to free up space, you can do so with:
@@ -93,7 +89,6 @@ If you want to remove the Docker image to free up space, you can do so with:
 docker rmi javascript-pong-image
 ```
 
----
 
 ## Additional Information
 
@@ -109,7 +104,6 @@ docker run -p 5001:5000 javascript-pong-image
 
 Then access the game at `http://localhost:5001`.
 
----
 
 ## Troubleshooting
 
@@ -119,17 +113,14 @@ Then access the game at `http://localhost:5001`.
 ### Issue: Cannot connect to `http://localhost:5000`.
 **Solution:** Ensure the Docker container is running and that you've mapped the ports correctly.
 
----
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
----
 
 ## Acknowledgments
 - Original game by Jake Gordon: [https://github.com/jakesgordon/javascript-pong](https://github.com/jakesgordon/javascript-pong)
 
----
 
 ## Contact
 For any questions or issues, please open an issue on the [project repository](https://github.com/jakesgordon/javascript-pong).
